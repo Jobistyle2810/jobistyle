@@ -1,0 +1,62 @@
+css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+header {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+h2 {
+    color: #007bff;
+    margin-top: 20px;
+}
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 20px;
+}
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+/* מדיה קוורי למכשירים ניידים */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* הקטנת רווח במובייל */
+    }
+    header {
+        padding: 15px; /* רווחים מותאמים */
+    }
+    form {
+        padding: 15px;
+    }
+    h2 {
+        font-size: 1.5em; /* הגדלת טקסט בכותרות במובייל */
+    }
+}

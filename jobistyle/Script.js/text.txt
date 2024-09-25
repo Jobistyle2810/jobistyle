@@ -1,0 +1,8 @@
+‏javascript
+‏document.getElementById("application-form").addEventListener("submit", function(event) {
+‏    event.preventDefault(); // כדי למנוע רענון הדף
+‏    const confirmationMessage = document.getElementById("confirmation-message");
+‏    confirmationMessage.innerText = "המועמדות שלך נשלחה בהצלחה!";
+‏    confirmationMessage.style.color = "green";
+‏    document.getElementById("application-form").reset(); // מאפס את הטופס
+});

@@ -1,0 +1,52 @@
+
+‏html
+‏<!DOCTYPE html>
+‏<html lang="he">
+‏<head>
+‏    <meta charset="UTF-8">
+‏    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+‏    <title>Jobistyle - גיוס עובדים לחו"ל</title>
+‏    <link rel="stylesheet" href="styles.css">
+‏</head>
+‏<body>
+‏    <header>
+‏        <h1>Jobistyle</h1>
+‏        <p>מגייסים עובדים לארה"ב, קנדה והקריבים!</p>
+‏    </header>
+    
+‏    <section id="job-list">
+‏        <h2>משרות פנויות</h2>
+‏        <ul>
+‏            <li>מתכנת פרונטאנד בארה"ב</li>
+‏            <li>מנהל פרויקטים בקנדה</li>
+‏            <li>מעצב גרפי בקריבים</li>
+‏        </ul>
+‏    </section>
+    
+‏    <section id="apply">
+‏        <h2>מלא טופס מועמדות</h2>
+‏        <form id="application-form">
+‏            <label for="name">שם:</label>
+‏            <input type="text" id="name" required>
+            
+‏            <label for="email">אימייל:</label>
+‏            <input type="email" id="email" required>
+            
+‏            <label for="position">משרה:</label>
+‏            <select id="position" required>
+‏                <option value="frontend">מתכנת פרונטאנד</option>
+‏                <option value="pm">מנהל פרויקטים</option>
+‏                <option value="designer">מעצב גרפי</option>
+‏            </select>
+‏            <button type="submit">שלח מועמדות</button>
+‏        </form>
+‏        <div id="confirmation-message"></div>
+‏    </section>
+    
+‏    <footer>
+‏        <p>© 2023 Jobistyle. כל הזכויות שמורות.</p>
+‏    </footer>
+    
+‏    <script src="script.js"></script>
+‏</body>
+‏</html>
